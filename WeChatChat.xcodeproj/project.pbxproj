@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2639F9B9258F1BAB00AA097B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2639F9B8258F1BAB00AA097B /* FavoriteButton.swift */; };
 		26B44B6525811E7000B39F0D /* WeChatChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B6425811E7000B39F0D /* WeChatChatApp.swift */; };
 		26B44B6725811E7000B39F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B6625811E7000B39F0D /* ContentView.swift */; };
 		26B44B6925811E7200B39F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B44B6825811E7200B39F0D /* Assets.xcassets */; };
 		26B44B6C25811E7200B39F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B44B6B25811E7200B39F0D /* Preview Assets.xcassets */; };
 		26B44B7725811E7300B39F0D /* WeChatChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B7625811E7300B39F0D /* WeChatChatTests.swift */; };
 		26B44B8225811E7300B39F0D /* WeChatChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B8125811E7300B39F0D /* WeChatChatUITests.swift */; };
+		26B44B9325812AE500B39F0D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B9225812AE500B39F0D /* MapView.swift */; };
+		26B44B9825812D6C00B39F0D /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B9725812D6C00B39F0D /* CircleImageView.swift */; };
+		26B44B9D25812F4100B39F0D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B9C25812F4100B39F0D /* Landmark.swift */; };
+		26B44BA22582662A00B39F0D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44BA12582662A00B39F0D /* ModelData.swift */; };
+		26B44BAF2582696D00B39F0D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 26B44BAE2582696D00B39F0D /* landmarkData.json */; };
+		26B44BBD25826A9800B39F0D /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44BBC25826A9800B39F0D /* LandmarkRow.swift */; };
+		26B44BC225826BEF00B39F0D /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44BC125826BEF00B39F0D /* LandmarkList.swift */; };
+		26B44BC725826E5C00B39F0D /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44BC625826E5C00B39F0D /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2639F9B8258F1BAB00AA097B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		26B44B6125811E7000B39F0D /* WeChatChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B44B6425811E7000B39F0D /* WeChatChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatChatApp.swift; sourceTree = "<group>"; };
 		26B44B6625811E7000B39F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +55,14 @@
 		26B44B7D25811E7300B39F0D /* WeChatChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B44B8125811E7300B39F0D /* WeChatChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatChatUITests.swift; sourceTree = "<group>"; };
 		26B44B8325811E7300B39F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B44B9225812AE500B39F0D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		26B44B9725812D6C00B39F0D /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		26B44B9C25812F4100B39F0D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		26B44BA12582662A00B39F0D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		26B44BAE2582696D00B39F0D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		26B44BBC25826A9800B39F0D /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		26B44BC125826BEF00B39F0D /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		26B44BC625826E5C00B39F0D /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2639F9BD258F1CC200AA097B /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				26B44BC625826E5C00B39F0D /* LandmarkDetail.swift */,
+				26B44BC125826BEF00B39F0D /* LandmarkList.swift */,
+				26B44BBC25826A9800B39F0D /* LandmarkRow.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		2639F9BE258F1CCA00AA097B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26B44B9725812D6C00B39F0D /* CircleImageView.swift */,
+				2639F9B8258F1BAB00AA097B /* FavoriteButton.swift */,
+				26B44B9225812AE500B39F0D /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		26B44B5825811E7000B39F0D = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				26B44B6425811E7000B39F0D /* WeChatChatApp.swift */,
-				26B44B6625811E7000B39F0D /* ContentView.swift */,
+				26B44BB525826A0800B39F0D /* Resources */,
+				26B44BB4258269F400B39F0D /* Model */,
+				26B44BB3258269CF00B39F0D /* Views */,
 				26B44B6825811E7200B39F0D /* Assets.xcassets */,
 				26B44B6D25811E7200B39F0D /* Info.plist */,
 				26B44B6A25811E7200B39F0D /* Preview Content */,
@@ -128,6 +168,33 @@
 				26B44B8325811E7300B39F0D /* Info.plist */,
 			);
 			path = WeChatChatUITests;
+			sourceTree = "<group>";
+		};
+		26B44BB3258269CF00B39F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26B44B6625811E7000B39F0D /* ContentView.swift */,
+				2639F9BE258F1CCA00AA097B /* Helpers */,
+				2639F9BD258F1CC200AA097B /* Landmarks */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26B44BB4258269F400B39F0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26B44B9C25812F4100B39F0D /* Landmark.swift */,
+				26B44BA12582662A00B39F0D /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26B44BB525826A0800B39F0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26B44BAE2582696D00B39F0D /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +302,7 @@
 			files = (
 				26B44B6C25811E7200B39F0D /* Preview Assets.xcassets in Resources */,
 				26B44B6925811E7200B39F0D /* Assets.xcassets in Resources */,
+				26B44BAF2582696D00B39F0D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B44B9825812D6C00B39F0D /* CircleImageView.swift in Sources */,
 				26B44B6725811E7000B39F0D /* ContentView.swift in Sources */,
+				26B44B9325812AE500B39F0D /* MapView.swift in Sources */,
+				2639F9B9258F1BAB00AA097B /* FavoriteButton.swift in Sources */,
+				26B44BC225826BEF00B39F0D /* LandmarkList.swift in Sources */,
+				26B44BC725826E5C00B39F0D /* LandmarkDetail.swift in Sources */,
 				26B44B6525811E7000B39F0D /* WeChatChatApp.swift in Sources */,
+				26B44B9D25812F4100B39F0D /* Landmark.swift in Sources */,
+				26B44BBD25826A9800B39F0D /* LandmarkRow.swift in Sources */,
+				26B44BA22582662A00B39F0D /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
