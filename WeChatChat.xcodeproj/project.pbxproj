@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2639F9B9258F1BAB00AA097B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2639F9B8258F1BAB00AA097B /* FavoriteButton.swift */; };
+		26632EFB258F2C89003D670C /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26632EFA258F2C89003D670C /* HexagonParameters.swift */; };
+		26632F00258F2D90003D670C /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26632EFF258F2D90003D670C /* BadgeBackground.swift */; };
+		26632F05258F3591003D670C /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26632F04258F3591003D670C /* BadgeSymbol.swift */; };
+		26632F0A258F3641003D670C /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26632F09258F3641003D670C /* RotatedBadgeSymbol.swift */; };
+		26632F0F258F370B003D670C /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26632F0E258F370B003D670C /* Badge.swift */; };
 		26B44B6525811E7000B39F0D /* WeChatChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B6425811E7000B39F0D /* WeChatChatApp.swift */; };
 		26B44B6725811E7000B39F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B44B6625811E7000B39F0D /* ContentView.swift */; };
 		26B44B6925811E7200B39F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B44B6825811E7200B39F0D /* Assets.xcassets */; };
@@ -43,6 +48,11 @@
 
 /* Begin PBXFileReference section */
 		2639F9B8258F1BAB00AA097B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		26632EFA258F2C89003D670C /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		26632EFF258F2D90003D670C /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		26632F04258F3591003D670C /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		26632F09258F3641003D670C /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		26632F0E258F370B003D670C /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		26B44B6125811E7000B39F0D /* WeChatChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B44B6425811E7000B39F0D /* WeChatChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatChatApp.swift; sourceTree = "<group>"; };
 		26B44B6625811E7000B39F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +120,18 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		26632F13258F39EA003D670C /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				26632EFF258F2D90003D670C /* BadgeBackground.swift */,
+				26632F04258F3591003D670C /* BadgeSymbol.swift */,
+				26632F09258F3641003D670C /* RotatedBadgeSymbol.swift */,
+				26632F0E258F370B003D670C /* Badge.swift */,
+				26632EFA258F2C89003D670C /* HexagonParameters.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		26B44B5825811E7000B39F0D = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				26B44B6625811E7000B39F0D /* ContentView.swift */,
+				26632F13258F39EA003D670C /* Badges */,
 				2639F9BE258F1CCA00AA097B /* Helpers */,
 				2639F9BD258F1CC200AA097B /* Landmarks */,
 			);
@@ -328,11 +351,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B44B9825812D6C00B39F0D /* CircleImageView.swift in Sources */,
+				26632F0F258F370B003D670C /* Badge.swift in Sources */,
 				26B44B6725811E7000B39F0D /* ContentView.swift in Sources */,
 				26B44B9325812AE500B39F0D /* MapView.swift in Sources */,
 				2639F9B9258F1BAB00AA097B /* FavoriteButton.swift in Sources */,
+				26632EFB258F2C89003D670C /* HexagonParameters.swift in Sources */,
+				26632F0A258F3641003D670C /* RotatedBadgeSymbol.swift in Sources */,
+				26632F05258F3591003D670C /* BadgeSymbol.swift in Sources */,
 				26B44BC225826BEF00B39F0D /* LandmarkList.swift in Sources */,
 				26B44BC725826E5C00B39F0D /* LandmarkDetail.swift in Sources */,
+				26632F00258F2D90003D670C /* BadgeBackground.swift in Sources */,
 				26B44B6525811E7000B39F0D /* WeChatChatApp.swift in Sources */,
 				26B44B9D25812F4100B39F0D /* Landmark.swift in Sources */,
 				26B44BBD25826A9800B39F0D /* LandmarkRow.swift in Sources */,
